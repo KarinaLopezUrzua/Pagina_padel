@@ -1,0 +1,437 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+    max-width: 1400px;
+    margin: auto;
+}
+
+/*CARACTERISTICAS HEADER*/
+header {
+    background-color: #F5F5F5;
+    padding: 65px;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.imagenes_nav {
+    padding: 35px 0px;
+    height: 25px;
+}
+
+.imagen_sportit {
+    padding-left: 5.7px;
+}
+
+ul {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-between;
+}
+
+#link {
+    text-decoration: none;
+}
+
+button {
+    background-color: rgba(139, 72, 191, 1);
+    color: white;
+    border: none;
+    height: 44px;
+    width: 134px;
+    border-radius: 50px;
+}
+
+#boton_nav {
+    margin-top: 25px;
+    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.imagen_hamburguesa {
+    display: none;
+    width: 46.88px;
+    height: 41.25px;
+    padding-top: 32px;
+}
+
+.contenedor_superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 161px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 57.3px;
+    height: 288px;
+}
+
+.contenedor_superior_derecho {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 399px;
+    direction: rtl;
+}
+
+.contenedor_superior_derecho img {
+    width: 540px;
+}
+
+.contenedor_superior_derecho p {
+    font-size: 16.56px;
+    line-height: 26.01px;
+    height: 71px;
+    padding: 28px 0px 18px;
+}
+
+/*CARACTERISTICAS MAIN*/
+section {
+    background-color: rgba(139, 72, 191, 1);
+    color: rgba(255, 255, 255, 1);
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diferencias {
+    height: 168px;
+    gap: 100px;
+}
+
+.diferencias h2 {
+    width: 450px;
+    font-size: 36px;
+}
+
+.diferencias p {
+    width: 500px;
+}
+
+.contenedor_main_superior {
+    display: flex;
+    padding: 40px 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    background: #FAFAFA;
+}
+
+.columnas {
+    display: flex;
+    width: 553px;
+}
+
+.columnas button {
+    width: 69px;
+}
+
+.bloque_descriptivo {
+    width: 437px;
+    height: 158px;
+    flex-direction: column;
+    display: flex;
+    padding-left: 23px;
+}
+
+.bloque_descriptivo h3 {
+    margin: 9px 0px;
+    border-radius: 50px 0px 0px 50px
+}
+
+.bloque_descriptivo p {
+    line-height: 25.52px;
+    height: 104px;
+    color: rgba(179, 178, 183, 1);
+}
+
+.contenedor_main_inferior {
+    display: flex;
+    height: 755px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor_main_inferior h2 {
+    text-align: center;
+    padding: 97px 0px 109px;
+    width: 424px;
+    font-size: 39.21px;
+}
+
+.bloque_columnas {
+    display: flex;
+}
+
+.columnas_jugadores {
+    width: 445px;
+    height: 220px;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+.columnas_jugadores p {
+    padding: 21px;
+    color: rgba(179, 178, 183, 1);
+}
+
+.columnas_jugadores img {
+    position: relative;
+    bottom: 35px;
+}
+
+#boton_jugadores {
+    margin-top: 45px;
+    background-color: rgba(139, 72, 191, 0.7)
+}
+
+.pre_footer {
+    gap: 538px;
+    height: 224px;
+}
+
+.pre_footer h2 {
+    width: 411px;
+    font-size: 40px;
+}
+
+#boton_prefooter {
+    background-color: #FAFAFA;
+    color: rgba(139, 72, 191, 0.7);
+}
+
+/*CARACTERISTICAS FOOTER*/
+footer {
+    background-color: #1E1E26;
+    color: rgba(255, 255, 255, 1);
+    height: 247px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer ul {
+    flex-direction: column;
+    gap: 12px;
+    width: 125px;
+    height: 128px;
+    align-items: flex-start;
+}
+
+.listas_footer {
+    display: contents;
+}
+
+.imagenes_footer {
+    display: flex;
+    padding-bottom: 78px;
+}
+
+.iconos_footer {
+    display: flex;
+    gap: 13.33px;
+}
+
+.contenedor_imagenes {
+    display: block;
+}
+
+form p {
+    font-size: 12.5px;
+    color: rgba(140, 140, 148, 1);
+    padding-top: 83px;
+    direction: rtl;
+}
+
+form input {
+    width: 191px;
+    height: 44px;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
+form button {
+    width: 63px;
+}
+
+/*CARACTERISTICAS EN VERSION MOBILE*/
+@media (max-width: 480px) {
+    body {
+        box-sizing: inherit;
+        width: 100%;
+    }
+
+    header {
+        padding: 0px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .contenedor_superior {
+        flex-direction: column;
+        align-items: center;
+        padding: 73px 0 31px;
+    }
+
+    .contenedor_superior img {
+        width: 400px;
+        padding: 0 40px 100px 40px;
+    }
+
+    #boton_nav {
+        display: none;
+    }
+
+    .imagen_hamburguesa {
+        display: inline;
+    }
+
+    section {
+        background-color: rgba(60, 221, 243, 1);
+        flex-direction: column;
+    }
+
+    .diferencias {
+        height: 306px;
+        gap: 50px;
+        padding: 40px 20px;
+        box-sizing: border-box;
+    }
+
+    .diferencias h2 {
+        width: 430px;
+    }
+
+    .diferencias p {
+        width: 440px;
+    }
+
+    .contenedor_main_superior {
+        display: flex;
+        padding: 40px 0px 0px 36px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+        background: #FAFAFA;
+    }
+
+    .bloque_descriptivo {
+        width: 446px;
+        height: 214px;
+        box-sizing: border-box;
+        gap: 21px;
+    }
+
+    .bloque_descriptivo p {
+        margin: 9px 5px;
+        ;
+    }
+
+    .bloque_descriptivo h3 {
+        margin: 0;
+        background-color: rgba(139, 72, 191, 0.3);
+    }
+
+    h3 button {
+        margin-right: 5px;
+        display: inline-block;
+    }
+
+    .contenedor_main_inferior{
+        height: 660px;
+    }
+
+    .columnas_jugadores {
+        margin: 18px;
+    }
+
+    #boton_jugadores{
+        background-color: rgba(139, 72, 191, 1);
+        ;
+    }
+
+    .pre_footer {
+        gap: 50px;
+        height: 336px;
+        padding: 40px 50px;
+    }
+
+    .pre_footer h2 {
+        width: 324px;
+        text-align: center;
+    }
+
+    #boton_prefooter {
+        background-color: rgba(35, 44, 80, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        height: 534.71px;
+    }
+
+    footer ul {
+        width: 69px;
+    }
+
+    .iconos_footer {
+        gap: 69px;
+    }
+
+    .contenedor_imagenes {
+        display: contents;
+    }
+
+    .imagenes_footer {
+        justify-content: center;
+        padding-bottom: 0;
+    }
+
+    form {
+        padding-top: 52px;
+    }
+
+    form input {
+        width: 308px;
+    }
+
+    footer ul {
+        flex-direction: column;
+        gap: 12px;
+        width: 125px;
+        height: 128px;
+        align-items: flex-start;
+    }
+
+    .listas_footer {
+        display: flex;
+        gap: 85px;
+        width: 333px;
+    }
+
+    .no_mostrar_mobile {
+        display: none;
+    }
+}
+
+@media (min-width:481px) {
+    .no_mostrar_desktop {
+        display: none;
+    }
+}
