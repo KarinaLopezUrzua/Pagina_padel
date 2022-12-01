@@ -216,14 +216,25 @@ section {
 footer {
     background-color: #1E1E26;
     color: rgba(255, 255, 255, 1);
-    height: 247px;
+    align-items: center;
+    padding: 60px;
+}
+
+footer p {
+    text-align: right;
+    padding-right: 60px;
+}
+
+.footer_superior {
+    background-color: #1E1E26;
+    color: rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
-footer ul {
+.footer_superior ul {
     flex-direction: column;
     gap: 12px;
     width: 125px;
@@ -249,10 +260,9 @@ footer ul {
     display: block;
 }
 
-form p {
+footer p {
     font-size: 12.5px;
     color: rgba(140, 140, 148, 1);
-    padding-top: 83px;
     direction: rtl;
 }
 
@@ -281,7 +291,7 @@ form button {
     nav {
         justify-content: space-around;
     }
-    
+
     nav ul {
         display: none;
     }
@@ -356,7 +366,7 @@ form button {
         display: inline-block;
     }
 
-    .contenedor_main_inferior{
+    .contenedor_main_inferior {
         height: 660px;
     }
 
@@ -364,7 +374,7 @@ form button {
         margin: 18px;
     }
 
-    #boton_jugadores{
+    #boton_jugadores {
         background-color: rgba(139, 72, 191, 1);
         ;
     }
@@ -385,14 +395,15 @@ form button {
         color: rgba(255, 255, 255, 1);
     }
 
-    footer {
-        flex-direction: column-reverse;
+    .footer_superior {
         height: 534.71px;
+        flex-direction: column-reverse;
     }
 
-    footer ul {
+    .footer_superior ul {
         width: 69px;
     }
+
 
     .iconos_footer {
         gap: 69px;
@@ -415,7 +426,7 @@ form button {
         width: 308px;
     }
 
-    footer ul {
+    .footer_superior ul {
         flex-direction: column;
         gap: 12px;
         width: 125px;
@@ -432,9 +443,18 @@ form button {
     .no_mostrar_mobile {
         display: none;
     }
+
+    footer {
+        padding: 30px;
+    }
+
+    footer p {
+        text-align: center;
+        padding-right: 30px;
+    }
 }
 
-@media (min-width:481px) {
+@media screen and (min-width:481px) {
     .no_mostrar_desktop {
         display: none;
     }
